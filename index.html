@@ -24,19 +24,55 @@
     <script src="lib/load_config.js"></script>
   </head>
   <body>
-    <table>
-      <tr><div id="pages"></div></tr>
-      <tr><div id="list"></div></tr>
-      <tr><div id="content"></div></tr>
-    </table>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <p class="text-left text-primary lead">
+          <div id="post"></div>
+          </p>
+          <grammarly>
+            <div class="_9b5ef6-textarea_btn _9b5ef6-anonymous _9b5ef6-not_focused">
+              <div class="_9b5ef6-transform_wrap">
+                <div class="_9b5ef6-status">
+                </div>
+              </div>
+            </div>
+          </grammarly>
+          <grammarly class="text-left text-primary lead">
+            <div class="_9b5ef6-textarea_btn _9b5ef6-anonymous _9b5ef6-not_focused">
+              <div class="_9b5ef6-transform_wrap">
+                <div class="_9b5ef6-status">
+                </div>
+              </div>
+            </div>
+          </grammarly>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="posts">
+
+              </div>
+              <grammarly>
+                <div class="_9b5ef6-textarea_btn _9b5ef6-anonymous _9b5ef6-not_focused">
+                  <div class="_9b5ef6-transform_wrap">
+                    <div class="_9b5ef6-status">
+                    </div>
+                  </div>
+                </div>
+              </grammarly>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script>
     $( document ).ready(function() {
       loadBlogConfig(function(configs) {
         document.title = configs.title;
-        renderView('_pages', configs.landing_page, '#content');
+        renderView('_pages', configs.landing_page, '#post');
       });
-      renderList('renderView', 'post_list', '_posts','#list', '#content');
-      renderList('renderView', 'page_list', '_pages','#pages', '#content', true);
+      renderList('renderView', 'page_list', '_pages','#posts', '#post', true);
     });
     </script>
   </body>
