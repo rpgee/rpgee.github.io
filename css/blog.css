@@ -1,0 +1,26 @@
+#pages ul {
+    font-size: medium;
+    font-weight: bold;
+    color: #003300;
+}
+#pages a {
+    font-size: medium;
+    font-weight: bold;
+    color: #003300;
+}
+.title {
+    font-size: medium;
+    font-weight: bold;
+    color: #003366;
+}
+
+#posts ul {
+    font-size: medium;
+    font-weight: bold;
+    color: #003366;
+}
+#posts a {
+    font-size: medium;
+    font-weight: bold;
+    color: #003300;
+}
