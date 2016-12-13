@@ -70,9 +70,9 @@
     $( document ).ready(function() {
       loadBlogConfig(function(configs) {
         document.title = configs.title;
-        renderView('_pages', configs.landing_page, '#post');
+        renderView('pages', configs.landing_page, '#post');
       });
-      renderList('renderView', 'post_list', '_posts','#posts', '#post');
+      renderList('renderView', 'post_list', 'posts','#posts', '#post');
     });
     </script>
   </body>
