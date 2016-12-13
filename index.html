@@ -50,6 +50,20 @@
         <div class="col-md-4">
           <div class="row">
             <div class="col-md-12">
+              <div id="pages">
+              </div>
+              <grammarly>
+                <div class="_9b5ef6-textarea_btn _9b5ef6-anonymous _9b5ef6-not_focused">
+                  <div class="_9b5ef6-transform_wrap">
+                    <div class="_9b5ef6-status">
+                    </div>
+                  </div>
+                </div>
+              </grammarly>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
               <div id="posts">
 
               </div>
@@ -73,6 +87,7 @@
         renderView('pages', configs.landing_page, '#post');
       });
       renderList('renderView', 'post_list', 'posts','#posts', '#post');
+      renderList('renderView', 'page_list', 'pages','#pages', '#post');
     });
     </script>
   </body>
