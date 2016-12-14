@@ -23,4 +23,10 @@
     font-size: medium;
     font-weight: bold;
     color: #003300;
+    padding-bottom: 2px;
+}
+
+#posts li {
+    position: relative;
+    padding-top: 11px;
 }
