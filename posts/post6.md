@@ -3,7 +3,9 @@ Recently, I got caught in the hype over the TypeScript. Even though I have neutr
 
 This idea was inspired by a flag used by the  [**Mocha**](https://www.npmjs.com/package/mocha)**.** The particular flag is as mentioned below.
 
+```sh
 --require ts-node/register
+```
 
 So, let's go ahead. (Drum roll please....)
 
