@@ -1,8 +1,8 @@
 {
-  "Another possibility for TypeScript + AWS Lambda": "post6",
   "Survey on File-less malware approach using JavaScript": "post5",
   "Why I use \"var myFunction = function myFunction(){ ... }\"": "post4",
   "Time travel for developers": "post3",
   "Feeling lazy ? I have a solution": "post2",
-  "\"All for one\" and \"One for all\"": "post1"
+  "\"All for one\" and \"One for all\"": "post1",
+    "Another possibility for TypeScript + AWS Lambda": "post6"
 }
